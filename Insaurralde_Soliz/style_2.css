@@ -1,12 +1,12 @@
 *{
     margin: 0;
 }
-.adios{
+.container{
     height: 600px;
     width: 600px;
     background-color: brown;
 }
-.hola{
+.camino{
     height: 100%;
     width: 100%;
     background-color: aqua;
