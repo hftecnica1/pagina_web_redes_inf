@@ -21,3 +21,42 @@ h1{
 
 
 }
+
+#title1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    float: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+}
+
+nav  {
+
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+    position: absolute; left: 45%;
+
+}
