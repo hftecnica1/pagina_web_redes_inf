@@ -1,6 +1,13 @@
 body {
     background-image: url("https://static4.depositphotos.com/1000393/328/i/450/depositphotos_3280491-stock-photo-fresh-bamboo-background.jpg");
 }
+
+#no_entrar {
+
+    background-image: url("https://pbs.twimg.com/media/CvlB9b2XgAAmiUo.jpg");
+    background-size: cover;
+}
+
 h1{
     color: aliceblue;
 }
@@ -11,6 +18,17 @@ h1{
     color: black;
     background-color: khaki;
 
+    text-align: center;
+
+}
+
+.title2 {
+
+    font-size: 100px;
+    color: black;
+    background-color: red;
+
+    text-align: center;
 
 }
 
@@ -22,9 +40,6 @@ h1{
 
 }
 
-#title1 {
-    text-align: center;
-}
 
 ul {
     list-style: none;
@@ -57,6 +72,10 @@ nav  {
     padding: 0px;
     text-align: center;
     display: inline-block;
-    position: absolute; left: 45%;
+    position: absolute; left: 38%;
 
+}
+
+p {
+    font-size: 150x;
 }
