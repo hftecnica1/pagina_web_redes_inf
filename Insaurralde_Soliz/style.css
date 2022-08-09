@@ -7,3 +7,9 @@ h1{
     font-size: 25px; 
     text-align: center;
 }
+
+.cara{
+    border-radius: 10px;
+    border-color: red;
+    border: outset;
+}
