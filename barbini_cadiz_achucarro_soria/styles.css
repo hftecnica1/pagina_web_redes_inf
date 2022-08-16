@@ -1,10 +1,82 @@
-*{font-family: 'Oleo Script Swash Caps', cursive;}
-.texto{
-    font-size: 200%;
+sbody {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(109, 109, 109);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.opcion{
+  font-family: 'Carter One', cursive;
+  font-size: 200%;
 }
 .titulo{
+    color: rgb(109, 109, 109);
+    font-family: 'Carter One', cursive;
+    padding: 5%;
     font-size: 400%;
+    text-align: center;
+}
+.nombre{
+  color: rgb(109, 109, 109);
+  font-family: 'Carter One', cursive;
+  font-size: 300%;
+  text-align: center;
+}
+.subtitulo{
+  color: rgb(109, 109, 109);
+  font-family: 'Carter One', cursive;
+  padding: 5%;
+  font-size: 300%;
+  text-align: left;
+}
+.imagenes{
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.imag{
+  width: 30%;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
 .pepo{
-    width: 10%;
+width: 15%;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.prox{
+  width: 10%;
+  
+}
+.manga{
+  width: 70%;
+}
+.mangas{
+
+  text-align: center;
+}
+.juegos{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  width: 60%;
+  height: 800px;
 }
