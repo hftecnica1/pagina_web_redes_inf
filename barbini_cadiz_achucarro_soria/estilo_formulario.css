@@ -1,0 +1,13 @@
+#form{
+    
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid;
+    background-color:peru;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+input{
+    display: block;
+    ;
+}
