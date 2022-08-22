@@ -1,14 +1,48 @@
 *{
     margin: 0;
 }
-.container{
-    height: 600px;
-    width: 600px;
+.cuerpo{
+    height: 100%;
+    width: 100%;
     background-color: brown;
+    position: relative;
 }
-.camino{
+.camino1{
     height: 100%;
     width: 100%;
     background-color: aqua;
-    clip-path: polygon(39% 33%, 56% 0, 63% 0, 48% 28%, 68% 48%, 42% 66%, 73% 100%, 61% 100%, 33% 61%, 56% 47%);
+    clip-path: polygon(35% 80%, 15% 80%, 16% 40%, 77% 39%, 78% 73%, 84% 74%, 84% 17%, 10% 19%, 10% 6%, 93% 4%, 94% 81%, 69% 81%, 68% 51%, 25% 50%, 25% 70%, 65% 70%, 65% 95%, 35% 95%);
+}
+.comenzar{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.contenedor{
+    position: relative;
+    height: 800px;
+    width: 1000px;
+}
+.camino2{
+
+}
+.btm-sgt{
+    margin: 50px;
+    height: 80px;
+}
+.meta1{
+    background-color: green;
+    clip-path: polygon(10% 5%, 25% 5%, 25% 20%, 10% 20%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
