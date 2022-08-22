@@ -31,6 +31,24 @@ sbody {margin:0;}
   font-size: 300%;
   text-align: left;
 }
+
+.instrucciones{
+  color: rgb(109, 109, 109);
+  font-family: 'Carter One', cursive;
+  padding: 5%;
+  font-size: 200%;
+  text-align: left;
+}
+
+.explicacion{
+  color: rgb(109, 109, 109);
+  font-family: 'Carter One';
+  padding: 5%;
+  font-size: 150%;
+  text-align: left;
+
+}
+
 .imagenes{
   width: 100%;
 }
