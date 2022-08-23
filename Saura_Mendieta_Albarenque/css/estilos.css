@@ -5,3 +5,12 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.titulo1
+{
+    text-align: center;
+}
+.cuerpo div a
+{
+    text-decoration: none;
+    color: white;
+}
