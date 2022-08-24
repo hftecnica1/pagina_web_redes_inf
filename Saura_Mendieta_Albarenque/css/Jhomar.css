@@ -1,4 +1,34 @@
+
 body
 {
     background-image: url(/img/FondoJhomar.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+div.Anime
+{
+    margin: 10px 20px;
+    box-shadow:0 6px 10px 0 black;
+    float: left;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.652);
+}
+div.Anime img
+{
+    width: 100%;
+    height: 400px;
+}
+div .Titulo
+{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding: 10px;
+}
+div h1:hover
+{
+    color: rgb(255, 105, 29);
 }
