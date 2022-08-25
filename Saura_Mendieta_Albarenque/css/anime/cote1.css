@@ -1,0 +1,25 @@
+body{
+    background-image: url(/img/Anime/FondCote1.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+div.contenedor img
+{
+    position: relative;
+    left: 100px;
+bottom: 150px;
+    width: 20%;
+    height: 400px;
+}
+div.contenedor
+{
+    position: absolute;
+    top: 260px;
+    margin: 10px 20px;
+    box-shadow:0 6px 10px 0 rgb(0, 0, 0);
+    float: left;
+    width: 97%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.998);
+}
