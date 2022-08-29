@@ -32,22 +32,24 @@
     height: 100%;
     width: 100%;
     background-color: aqua;
-    clip-path: polygon(6% 9%, 50% 8%, 49% 20%, 673px 235px, 673px 317px, 41% 29%, 38% 18%, 16% 18%, 18% 73%, 25% 73%, 25% 53%, 56% 51%, 55% 78%, 62% 79%, 64% 95%, 41% 94%, 41% 81%, 49% 79%, 47% 64%, 33% 64%, 31% 88%, 8% 89%);
+    clip-path: polygon(57% 81%, 59% 81%, 59% 96%, 41% 96%, 41% 81%, 43% 81%, 43% 55%, 16% 55%, 16% 6%, 83% 6%, 83% 19%, 27% 19%, 27% 40%, 57% 40%);
 }
 .camino2{
     height: 100%;
     width: 100%;
     background-color: aqua;
-    clip-path: polygon(35% 80%, 15% 80%, 16% 40%, 77% 39%, 78% 73%, 84% 74%, 84% 17%, 10% 19%, 10% 6%, 93% 4%, 94% 81%, 69% 81%, 68% 51%, 25% 50%, 25% 70%, 65% 70%, 65% 95%, 35% 95%);
+    clip-path: polygon(92% 19%, 92% 6%, 8% 6%, 8% 37%, 77% 37%, 77% 66%, 50% 66%, 50% 80%, 56% 80%, 56% 74%, 85% 74%, 85% 27%, 19% 27%, 19% 19%);
+    
 }
 .camino3{
     height: 100%;
     width: 100%;
     background-color: aqua;
+    clip-path: polygon(50% 87%, 56% 87%, 56% 65%, 14% 65%, 14% 43%, 33% 43%, 33% 29%, 47% 29%, 47% 53%, 68% 53%, 68% 30%, 80% 30%, 80% 23%, 77% 23%, 77% 27%, 64% 27%, 64% 48%, 53% 48%, 53% 23%, 28% 23%, 28% 36%, 7% 36%, 7% 74%, 50% 74%);   
 }
 .meta1{
     background-color: green;
-    clip-path: polygon(674px 187px, 867px 187px, 867px 365px, 674px 365px);
+    clip-path: polygon(83% 6%, 92% 6%, 92% 19%, 83% 19%);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -56,7 +58,7 @@
 }
 .meta2{
     background-color: green;
-    clip-path: polygon(10% 5%, 25% 5%, 25% 20%, 10% 20%);
+    clip-path: polygon(50% 80%, 56% 80%, 56% 87%, 50% 87%);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -65,7 +67,7 @@
 }
 .meta3{
     background-color: green;
-    clip-path: polygon(10% 5%, 25% 5%, 25% 20%, 10% 20%);
+    clip-path: polygon(71% 11%, 74% 11%, 74% 15%, 71% 15%);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -96,9 +98,25 @@ p{
     border-color: white;
     border: outset;
 }
-.imagenExorcistea{
+.imagenExorcistea-activado{
     position: absolute;
     height: 100%;
     width: 100%;
+    display: block;
+    z-index: 5;
+}
+.imagenExorcistea-desativado{
     display: none;
+}
+.trampa{
+    display: none;
+}
+.trampa-activado{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip-path: polygon(80% 23%, 77% 23%, 71% 23%, 71% 15%, 74% 15%, 74% 20%, 80% 20%);
 }

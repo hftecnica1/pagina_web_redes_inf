@@ -8,17 +8,30 @@ let metas = "meta1"
 
 contenedor.addEventListener("mousemove",(x)=>{
     x.target.classList.value == "cuerpo" ?  perdiste():"" 
-    x.target.classList.value == metas ? empezarSiguiente(camino.classList.value,metas):1 
+    x.target.classList.value == metas ? empezarSiguiente(camino.classList.value,metas):1
+    x.target.classList.value == "trampa-activado" ? imagenTerror():1
+    
 })
 
 function siguiente(params) {
     
 }
 function perdiste( ) {
-    mensaje.innerText="reintentar"
+    mensaje.innerText="Reintentar"
     comenzar.style.zIndex=1;
+    document.getElementById('tmp').classList.value = "trampa"
+}
+function imagenTerror(  ) {
+    document.getElementById("img-scream").classList.value = "imagenExorcistea-activado"
+    let audio = new Audio("sonido.mp3");
+    audio.addEventListener("ended",()=>{
+        document.getElementById("img-scream").classList.value="imagenExorcistea-desativado"
+        perdiste()
+    })
+    audio.play()
 }
 function empezarSiguiente( valor1, valor2 ) {
+    console.log(1)
     comenzar.style.zIndex=1;
     if (arguments.length != 0){
         let metaDic = {"meta1":"meta2","meta2":"meta3"} 
@@ -27,7 +40,11 @@ function empezarSiguiente( valor1, valor2 ) {
         metaFinal.classList.value = metaDic[valor2]
         camino.classList.value = caminoDic[valor1]
         console.log(metaDic[valor2],caminoDic[valor1]);
-    }else{
+        if ( valor2 == "meta2" ) {
+            document.getElementById('tmp').classList.value = "trampa-activado"
+            console.log(31);
+        }
+    }else if (arguments.length == 0){
         metas = "meta1"
         camino.classList.value = "camino1"
         metaFinal.classList.value = "meta1"
