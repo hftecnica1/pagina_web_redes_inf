@@ -3,6 +3,8 @@ p {
     font-size: 20px;
     font-weight: bold;
     color: aliceblue;
+    margin: justify;
+    padding: 30px;
 }
 
 body {
