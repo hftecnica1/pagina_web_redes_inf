@@ -1,8 +1,9 @@
 body{
     background-image: url(/img/Anime/FondCote2.JPG);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 800px;
     background-attachment: fixed;
+    margin: 0;
 }
 div.contenedor img
 {
@@ -15,11 +16,10 @@ div.contenedor img
 div.contenedor
 {
     position: absolute;
-    top: 300px;
-    margin: 10px 20px;
+    top: 500px;
     box-shadow:0 6px 10px 0 rgb(0, 0, 0);
     float: left;
-    width: 97%;
+    width: 100%;
     height: 900px;
     background-color: rgba(0, 0, 0, 0.998);
 }

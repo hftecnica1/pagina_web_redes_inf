@@ -14,3 +14,31 @@ body
     text-decoration: none;
     color: white;
 }
+div.lista
+{
+    width: 40%;
+    height: 110px;
+    background-color: black;
+    border-radius: 40px;
+}
+div.lista a
+{
+    position: relative;
+    left: 10%;
+    top: 20px;
+}
+div.listaIZ
+{
+    position: relative;
+    left: 63%;
+    width: 40%;
+    height: 110px;
+    background-color: black;
+    border-radius: 40px;
+}
+div.listaIZ a
+{
+    position: relative;
+    left: 10%;
+    top: 20px;
+}
