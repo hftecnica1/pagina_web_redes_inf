@@ -34,5 +34,19 @@ li a{
     text-decoration: none;
 }
 li a:hover{
-    background-color: brown;
+    background-color: burlywood;
+}
+#formulario
+{
+    background-color: burlywood;
+    border: 5px rgb(46, 22, 3);
+    padding: 5px;
+    width: 200px;
+}
+input{
+    background-color: rgb(90, 51, 19);
+}
+label{
+    color: black;
+    text-decoration: underline;
 }
