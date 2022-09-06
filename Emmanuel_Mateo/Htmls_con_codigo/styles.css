@@ -1,5 +1,14 @@
 button
 {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 80px;
+    background-color: burlywood;
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:inherit;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
