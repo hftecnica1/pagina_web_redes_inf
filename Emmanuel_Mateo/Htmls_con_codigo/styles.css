@@ -1,6 +1,6 @@
 button
 {
-    width: 400px;
+    width: 300px;
     height: 80px;
     background-color: burlywood;
     font-size: larger;
@@ -11,4 +11,28 @@ body
 {
     background-repeat: no-repeat;
     background-size: cover;
+}
+h1
+{
+    font-size: 40px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: brown;
 }
