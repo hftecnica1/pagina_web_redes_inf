@@ -1,0 +1,25 @@
+body{
+    background-image: url(/img/Anime/FondDress-Up.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    background-attachment: fixed;
+    margin: 0;
+}
+div.contenedor img
+{
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+    width: 350px;
+    height: 500px;
+}
+div.contenedor
+{
+    position: absolute;
+    top: 500px;
+    box-shadow:0 6px 10px 0 rgb(0, 0, 0);
+    float: left;
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.998);
+}
