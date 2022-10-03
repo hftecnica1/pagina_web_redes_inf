@@ -3,29 +3,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-ul {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-   }li {
-    float: right;
-    }
-   
-    a {
-    display: block;
-    padding: 8px;
-    background-color: #db6300;
-    background-size: cover;
-    }
-    ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #db6300;
-    }
-    li{
+
+}
+li{
         float: left;
     }
     li a {
@@ -56,3 +37,57 @@ border-right: 1px solid #bbb;
         padding: 10px;
         border: 10px white;
     }
+.navbar {
+overflow: hidden;
+background-color: #db6300;
+position: fixed;
+top: 0;
+width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: solid;
+}
+.navbar a:hover {
+background: #ddd;
+color: black;
+}
+.mov{
+    float: left;
+}
+.navbar{
+    text-align: center;
+}
+div.Anime
+{
+    margin: 10px 10px;
+    box-shadow:0 6px 10px 0 black;
+    float: left;
+    width: 18%;
+    background-color: rgba(0, 0, 0, 0.652);
+}
+div.Anime img
+{
+    width: 100%;
+    height: 200px;
+}
+div .Titulo
+{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding: 10px;
+}
+div h1:hover
+{
+    color: rgb(255, 105, 29);
+}
+div.subtitle
+{
+    padding: 20px;
+}
